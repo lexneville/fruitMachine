@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Next Level Fruit Machine</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class = "betAmount">
+        <button class ="betButton" id = "plusTen">Bet + 10</button>
+        <button class ="betButton" id = "plusOne">Bet + 1</button>
+        <p class ="betButton" id = "betAmount">0</p>
+        <button class ="betButton" id = "minusOne">Bet - 1</button>
+        <button class ="betButton" id = "minusTen">Bet - 10</button>
+
+    </div>
+    <div class = "start">
+        <img id = "start" src="images/StartButton.png" alt="startButton">
+    </div>
+    <div class = "slotImages">
+        <img id="r1" src="images/CasinoPokerSlot.png" alt="slot1">
+        <img id="r2" src="images/CasinoPokerSlot.png" alt="slot2">
+        <img id="r3" src="images/CasinoPokerSlot.png" alt="slot3">
+    </div>
+
+    <div class = "picture">
+        <img id = "status" src="images/Fail.png" alt="Image Missing">
+    </div>
+    <h3>Total winnings this session</h3>
+    <p id="totalWinningsDisplay">0</p>
+    <h3 id="balanceTitle"> Your Balance is </h3>
+    <p id="balanceDisplay">0</p>
+    <h3 id="numberOfWinsTitle">Number of winning spins</h3>
+    <p id="numberOfWins">0</p>
+    <button id="reset">Reset</button>
+
+</body>
+<script src="./js/fruit.js"></script>
+</html>
